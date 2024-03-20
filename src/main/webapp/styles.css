@@ -1,0 +1,332 @@
+@charset "ISO-8859-1";
+    html,body{
+		height: 100%;
+		padding: 0;
+		margin:0;
+	}
+	
+	.bg{
+		background: linear-gradient(rgb(100, 135, 157,0.1) ,rgb(128, 170, 187,0.1));
+
+	}
+
+    .heading,
+    .vphd{
+        font-size: 25px;
+        font-weight: 600;
+        display: block; 
+        margin-bottom: 25px;
+    }
+    .vphd{
+		color: darkblue;
+	}
+    
+   	.loginbox{
+		position: absolute;
+        top: 48%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 25%;
+        height: 30%;
+        padding: 60px;
+        text-align: center;
+        font-size: 17px;
+        font-weight: 550;
+        background-color:rgba(203, 206, 209, 0.3);
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        color: rgb(9, 39, 72);
+	}
+
+   .registerbox{
+		position: absolute;
+        top: 48%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 25%;
+        height: 55%;
+        padding: 60px;
+        text-align: center;
+        font-size: 17px;
+        font-weight: 550;
+        background-color:rgba(203, 206, 209, 0.3);
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        color: rgb(9, 39, 72);	
+     }
+        
+    .btn {
+        display: inline-block;
+        background: rgb(15, 55, 97);
+        color: rgb(241, 241, 245);
+        font-size: 20px;
+        text-decoration: none;
+        padding: 8px 20px;
+        margin-top: 1px;
+        font-weight: 400;
+        border-radius: 10px;
+        border: 2px solid #1e3551;
+        transition: all 0.5s ease;
+      }
+    
+      .btn:hover {
+         border: 2px solid rgb(241, 242, 245);
+         color: rgb(8, 19, 26);
+     }
+     
+     #btn{
+		 background: rgb(21, 145, 10);
+	 }
+
+     .input {
+	    padding: 7px;
+	    border: 2px solid #375a72;
+	    border-radius: 5px;
+	    font-size: 16px;
+    }
+
+	.input:hover {
+		outline: none;
+	    border-color:ghostwhite; 
+		box-shadow: 1px 1px 5px black;
+	 }
+	
+	#logup{
+		font-size: 18px;
+		color:darkblue;
+		text-decoration: none;
+	}
+	
+	#logup:hover{
+		font-size: 20px;
+		text-shadow:2px 2px 2px  black;
+	}
+
+     /* branchDetail styling*/
+	 .brhd {
+	        text-align: center;
+	        font-size: 27px;
+	        color:mediumblue;
+	        text-decoration: underline;
+      }
+
+    .bttn,
+    .bton {
+        background: rgb(15, 55, 97);
+        color: rgb(241, 241, 245);
+        font-size: 20px;
+        text-decoration: none;
+        padding: 10px;
+        margin-top: 20px;
+        font-weight: 400;
+        border-radius: 10px;
+        border: 2px solid #1e3551;
+        transition: all 0.5s ease;
+        width: 281px;
+        text-align: center;
+    }
+    
+
+    .bttn:hover,
+    .bton:hover {
+        border: 2px solid rgb(241, 242, 245);
+        color: rgb(8, 19, 26);
+    }
+    
+    .bton{
+		 background: rgb(21, 145, 10);
+	}
+
+    .secbox1 {
+        margin-left: 2%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-between;
+        position: relative;
+    }
+   .box2{
+		 margin-left:28px;
+         display: flex;
+    }
+    
+    #grd{
+		background:green;
+	}
+    
+
+    details {
+        width: 25%;
+    }
+    
+    .sem {
+        margin-left: 80px;
+   }
+
+   .sem input[type="submit"] {
+        padding: 5px;
+        font-size: 16px;
+        color: rgb(248, 250, 252);
+        background-color: #1b4886;
+        border-color: #5672a2;
+        width: 140px;
+        margin: 5px;
+    }
+
+   .sem input[type="submit"]:hover{
+    background-color: #042656;
+    border-color: #99a3b1;
+  }
+    
+   /* LoginJSP styling*/
+	 .wlchd{
+	        font-size: 27px;
+	        font-weight: 550;
+	        display: block; 
+	        text-align:center;
+	        margin-top:80px;
+	        color:rgb(18, 62, 134);
+		    text-align:center;
+		    margin-top:120px;
+	  }
+
+   /* DeleteProfile jsp styling*/ 
+     .std,
+     .rghd,
+     .udp{
+	        font-size: 27px;
+	        font-weight: 550;
+	        display: block; 
+	        text-align:center;
+	        color:darkgreen;
+		    text-align:center;
+		    margin-top:120px;
+        }
+        
+  /*EditProfile styling*/
+	  .sub{
+		    position: absolute;
+	        top: 48%;
+	        left: 50%;
+	        transform: translate(-50%, -50%);
+	        width: 25%;
+	        height: 30%;
+	        padding: 60px;
+	        text-align: center;
+	        font-size: 17px;
+	        font-weight: 550;
+	        background-color:rgba(203, 206, 209, 0.3);
+	        border-radius: 10px;
+	        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+	        color: rgb(9, 39, 72);
+	    }
+    
+       .ed{
+        margin-top:130px;
+        text-align: center;
+        font-size: 27px;
+        color:darkblue;
+      }
+     
+      .frm{
+        font-size:18px;
+      }
+     
+     .inp {
+	    padding: 7px;
+	    border: 2px solid #375a72;
+	    border-radius: 5px;
+	    font-size: 16px;
+      }
+
+	 .inp:hover {
+		outline: none;
+	    border-color:ghostwhite; 
+		box-shadow: 1px 1px 5px black;
+	  }
+	   
+	 .upd {
+        display: inline-block;
+        background: rgb(15, 55, 97);
+        color: rgb(241, 241, 245);
+        font-size: 18px;
+        text-decoration: none;
+        padding: 8px 20px;
+        margin-top: 1px;
+        border-radius: 10px;
+        border: 2px solid #1e3551;
+        transition: all 0.5s ease;
+      }
+	 
+	 .upd:hover {
+         border: 2px solid rgb(241, 242, 245);
+         color: rgb(8, 19, 26);
+     }
+     
+    .name{
+         font-size: 22px;    
+     }
+ 
+     /* ViewBranchSubjectJSP styling*/
+	.subBox{
+	    margin: 50px;
+	    padding: 20px;
+	    width: 40%;
+	    border-radius: 5px;
+	    background-color:rgba(203, 206, 209, 0.3);
+	    border-radius: 10px;
+	    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+	    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+	    color: #053271;
+	    margin-left:400px;
+	    text-align: justify;
+	    }
+	   
+	   .vpBox{ 
+	     position: absolute;
+	     top: 48%;
+	     left: 50%;
+	     transform: translate(-50%, -50%);
+	     width: 31%;
+	     height: 35%;
+	     padding: 40px;
+	     text-align: center;
+	     background-color:rgba(203, 206, 209, 0.3);
+	     border-radius: 10px;
+	     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+	  }
+	 .stdname{
+	    font-weight: 600;
+	    font-size: 24px;
+	    line-height: 2;
+	 }
+	 
+	 .semsubname{
+	    font-size:20px;
+	    color:darkblue;
+	}
+	
+	.subname{
+	    text-align: justify;
+	    font-size: 17px;
+	}
+	
+	/* ViewProfileJSP styling*/
+	 .stddetail{
+	    margin-left:120px;
+	    text-align: left;
+	    font-size: 20px;
+	    color:darkblue;
+	    line-height:1.3;
+	}
+
+   .btndiv{
+	    margin-top:22px;
+	    margin-left:30px;
+	    display: flex;
+	}
+	 
+	.btndiv a{
+		margin-right: 20px;
+	} 
+
+   

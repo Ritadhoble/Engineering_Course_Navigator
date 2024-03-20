@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Engineering Course Navigator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+  <body>
+  <header>
+    <div class="logo">
+      <img src="images/rtmnulogo.jfif" alt="RTMNU Logo">
+      <div class="logoname">RTMNU</div>
+    </div>
+    
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+     
+  <!--Text Section-->
+  <section class="main">
+    <div class="centered-box">
+      <div class="typed-out"><span class="welhd">Welcome to...</span></div>
+         <div class="typewriter">
+            <h3 id="typewriter-text"></h3>
+        </div>
+        <div>
+            <p>Are you ready to simplify your journey through engineering courses?</p>
+        </div>
+        <a href="login.html" class="btn">Get Started</a>
+      </div>
+    </div>
+  </section>
+ 
+ <!-- About Section -->
+ <section class="about" id="about">
+  <div class="max-width">
+      <div class="about-content">
+          <div class="column left">
+              <img src="images/rtmnu1.jpg" alt="Profile Image 626x626">
+          </div>
+          <div class="column right"><br>
+              <div class="text">About RTMNU University</div>
+              <p>Rashtrasant Tukadoji Maharaj Nagpur University (RTMNU), formerly known as Nagpur University, is a public state university located in Nagpur, Maharashtra. The Rashtrasant Tukadoji Maharaj Nagpur University is one of the premier educational institutions of central India. It was established on August 4, 1923.</p>
+              <p>RTMNU enjoys connectivity with every part of the nation, making it a preferred choice for students from other states. The university offers various undergraduate, postgraduate, and doctoral programs in disciplines such as Arts, Science, Commerce, Engineering, Management, and more.</p>
+              <p>RTMNU is committed to providing quality education and fostering research and innovation in various fields. It aims to empower students with knowledge and skills to contribute to society and the nation at large.</p>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+ <!-- Contact Section -->
+ <section class="contact" id="contact">
+  <div class="max-width">
+      <div class="contact-context">
+          <div class="google-map">
+              <h5>RTMNU Location Map</h5>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6192.286084609555!2d79.03599256018853!3d21.14905521871758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c05e9defed73%3A0xdc9581c9108c371b!2sRashtrasant%20Tukadoji%20Maharaj%20Nagpur%20University!5e0!3m2!1sen!2sin!4v1710145856282!5m2!1sen!2sin" width="450" height="320" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="detail">
+              <h5>Contact Us</h5>
+              <form id="submitForm">
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" class="conInput" name="name" required>
+          
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" class="conInput" name="email" required>
+
+                  <label for="number">Mobile No:</label>
+                  <input type="number" id="phone" class="conInput" name="phone" required>
+          
+                  <label for="message">Message:</label>
+                  <textarea style="height: 100px;" id="message" class="conInput" name="message" required></textarea>
+          
+                  <button type="submit" class="btn">Submit</button>
+              </form>
+              <p id="successMsg"></p> 
+          </div>
+       
+      </div>
+  </div>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
+
+
